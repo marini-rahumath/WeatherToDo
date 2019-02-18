@@ -1,0 +1,128 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+   /* background-image: linear-gradient(180deg, #dbf2ff ,  #f5eaff, #ffedf3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;*/
+    background-color: #edf4f4;
+
+}
+.card-list {
+    width: 45%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 1px 1px 15px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 15px 2px rgba(0,0,0,0.2);
+
+
+}
+.modal {
+    width: 45%;
+}
+@media (max-width: 700px) {
+    .modal {
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .card-list {
+        margin: none;
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+.weather-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 0px;
+    padding-top: 3px;
+    text-align: center;
+    height: 230px;
+    display:block;
+    width: 100%;
+
+}
+@media (max-width: 700px) {
+    .weather-card {
+        margin: none;
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+
+    vertical-algin: middle;
+}
+@media (max-width: 700px) {
+    .centre {
+        margin-top : -20px;
+    }
+}
+.task-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 2%;
+    border-bottom: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.05);
+    box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.05);
+    overflow-y: auto;
+}
+
+.task-card:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    webkit-box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.1);
+    color: #00726b
+}
+.btn-like{
+    cursor: pointer;
+}.btn-like:hover{
+    color: #00b2a9;
+}
+
+.task-card .task-container {
+    padding: 0.1% 2% 0.1% 2%;
+}
+
+.task-card .task-container p {
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    -webkit-margin-before: 0.2em;
+    -webkit-margin-after: 0.2em;
+}
+
+.task-card .task-container .task-label {
+    width: 50px;
+    height: 10px;
+    border-radius: 3px;
+    margin-top: 8px;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.task-card .task-container .task-notifications {
+    margin-bottom: 5px;
+}
+
+.task-card .task-container .task-notifications i {
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+.task-card .task-container .task-notifications i.fa-list {
+    margin-right: 7px;
+}
+
+.task-card .task-container .task-notifications .comments-number {
+    display: inline-block;
+    font-size: 0.8em;
+}
+
