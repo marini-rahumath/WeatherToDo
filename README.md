@@ -1,9 +1,10 @@
 # WeatherToDo
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG =300x)
 
 
 
-Weather to do is a simple single page web application that shows the forcasted weather of any day and shows the list of activities the user has created. User can modify and and delete activity (modify and delete function is still on going and still buggy as of 19/02/2019)
+Weather to do is a simple single page web application that shows the forcasted weather of any day and shows the list of activities the user has created. User can modify and and delete activity (modify and delete function is still on going and still buggy as of 18/02/2019)
 
 Created for the purpose of learning and exploring react.js and also for a technical assessment.
 
@@ -18,12 +19,12 @@ Look for index.html from the project folder and open it on any broswer.
 UI Information
 It is a single page application with responsive achieved through css. 
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Desktop.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Desktop.JPG =300x)
 
 Desktop View
 
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG =300x)
 Mobile View
 
 
@@ -33,13 +34,13 @@ Weather Information
 2) To view the weather information another date, User should click on the date at the top of the application and a calender widget will pop up. user should click on interested date and the weather information will be retrieved for the selected date.
 
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather1.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather1.JPG =300x)
 User clicks on the date at the top of the page (Date turns from black to mint green)
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather3.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather3.JPG =300x)
 Calender widget pops up and user is selecting 3rd of  March
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather4.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather4.JPG =300x)
 Weather details of 3rd of March is retrieved
 
 
@@ -53,21 +54,21 @@ Activity List
 
 Add feature:
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity.JPG =300x)
 Form window pops up after clicking on the plus button
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity3.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity3.JPG =300x)
 Submit button to be clicked after entering "Study for Test" activity
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity4.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity4.JPG =300x)
 "Sudy for Test" activity shows up in the activity list
 
 Edit feature:
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit.JPG =300x)
 Selecting the first activity
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit2.JPG)
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit2.JPG =300x)
 Details of activity loaded to the form.
 
 
