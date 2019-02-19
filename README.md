@@ -1,6 +1,6 @@
 # WeatherToDo
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG" width="300px" align="middle"/>
 
 
 
@@ -19,12 +19,12 @@ Look for index.html from the project folder and open it on any broswer.
 UI Information
 It is a single page application with responsive achieved through css. 
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Desktop.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Desktop.JPG" width="900px"/>
 
 Desktop View
 
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG" width="300px"/>
 Mobile View
 
 
@@ -34,13 +34,13 @@ Weather Information
 2) To view the weather information another date, User should click on the date at the top of the application and a calender widget will pop up. user should click on interested date and the weather information will be retrieved for the selected date.
 
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather1.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather1.JPG" width="300px"/>
 User clicks on the date at the top of the page (Date turns from black to mint green)
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather3.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather3.JPG" width="300px"/>
 Calender widget pops up and user is selecting 3rd of  March
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather4.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather4.JPG" width="300px"/>
 Weather details of 3rd of March is retrieved
 
 
@@ -54,21 +54,21 @@ Activity List
 
 Add feature:
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity.JPG" width="300px"/>
 Form window pops up after clicking on the plus button
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity3.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity3.JPG" width="300px"/>
 Submit button to be clicked after entering "Study for Test" activity
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity4.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity4.JPG" width="300px"/>
 "Sudy for Test" activity shows up in the activity list
 
 Edit feature:
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit.JPG" width="300px"/>
 Selecting the first activity
 
-![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit2.JPG =300x)
+<img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit2.JPG" width="300px"/>
 Details of activity loaded to the form.
 
 
