@@ -22,7 +22,8 @@ It is a single page application with responsive achieved through css.
 
 Desktop View
 
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG)
 Mobile View
 
 
@@ -31,11 +32,14 @@ Weather Information
 1) User can view the weather information of the current day on pageload
 2) To view the weather information another date, User should click on the date at the top of the application and a calender widget will pop up. user should click on interested date and the weather information will be retrieved for the selected date.
 
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather1.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather1.JPG)
 User clicks on the date at the top of the page (Date turns from black to mint green)
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather3.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather3.JPG)
 Calender widget pops up and user is selecting 3rd of  March
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather4.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather4.JPG)
 Weather details of 3rd of March is retrieved
 
 
@@ -48,17 +52,22 @@ Activity List
 6) User can delete an activity (Ongoing, not done as of 18/02/2019)
 
 Add feature:
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity.JPG)
 Form window pops up after clicking on the plus button
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity3.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity3.JPG)
 Submit button to be clicked after entering "Study for Test" activity
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity4.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity4.JPG)
 "Sudy for Test" activity shows up in the activity list
 
 Edit feature:
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit.JPG)
 Selecting the first activity
-https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit2.JPG
+
+![alt text](https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit2.JPG)
 Details of activity loaded to the form.
 
 
