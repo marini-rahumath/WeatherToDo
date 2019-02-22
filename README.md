@@ -24,7 +24,7 @@ Created for the purpose of learning and exploring react.js and for a technical a
 It is a single page application with responsive User Interface achieved through css. 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Desktop.JPG" width="900px"/>
-*Fig. 1: Desktop View*
+###### Fig. 1: Desktop View
 &nbsp;
 &nbsp;
 &nbsp;
@@ -32,7 +32,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG" width="300px"/>
-*Fig. 2: Mobile View*
+###### Fig. 2: Mobile View
 &nbsp;
 &nbsp;
 &nbsp;
@@ -52,7 +52,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather1.JPG" width="300px"/>
-*Fig. 3: User clicks on the date at the top of the page (Date turns from black to mint green)*
+###### Fig. 3: User clicks on the date at the top of the page (Date turns from black to mint green)
 &nbsp;
 &nbsp;
 &nbsp;
@@ -60,7 +60,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather3.JPG" width="300px"/>
-*Fig. 4: Calender widget pops up and user is selecting 3rd of March*
+###### Fig. 4: Calender widget pops up and user is selecting 3rd of March
 &nbsp;
 &nbsp;
 &nbsp;
@@ -68,7 +68,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/weather4.JPG" width="300px"/>
-*Fig. 5: Weather details of 3rd of March is retrieved*
+##### Fig. 5: Weather details of 3rd of March is retrieved
 &nbsp;
 &nbsp;
 &nbsp;
@@ -88,10 +88,10 @@ It is a single page application with responsive User Interface achieved through 
 &nbsp;
 
 
-##### Add feature:
+#### Add feature:
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity0.JPG" width="300px"/>
-*Fig. 6: User clicks on the plus button to add new activity*
+###### Fig. 6: User clicks on the plus button to add new activity
 &nbsp;
 &nbsp;
 &nbsp;
@@ -100,7 +100,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity.JPG" width="300px"/>
-*Fig. 7: Form window pops up after clicking on the plus button*
+###### Fig. 7: Form window pops up after clicking on the plus button
 &nbsp;
 &nbsp;
 &nbsp;
@@ -108,7 +108,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity3.JPG" width="300px"/>
-*Fig. 8: Submit button to be clicked after entering "Study for Test" activity*
+###### Fig. 8: Submit button to be clicked after entering "Study for Test" activity
 &nbsp;
 &nbsp;
 &nbsp;
@@ -116,7 +116,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/activity4.JPG" width="300px"/>
-*Fig. 9: "Sudy for Test" activity shows up in the activity list*
+###### Fig. 9: "Sudy for Test" activity shows up in the activity list
 &nbsp;
 &nbsp;
 &nbsp;
@@ -124,10 +124,10 @@ It is a single page application with responsive User Interface achieved through 
 
 
 
-##### Edit feature:
+#### Edit feature:
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit.JPG" width="300px"/>
-*Fig. 10: User clciks on the edit button of the first activity, "Do Laundry"*
+###### Fig. 10: User clciks on the edit button of the first activity, "Do Laundry"
 &nbsp;
 &nbsp;
 &nbsp;
@@ -135,7 +135,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit2.JPG" width="300px"/>
-*Fig. 11: Details of "Do Laundry" activity is loaded to the form.*
+###### Fig. 11: Details of "Do Laundry" activity is loaded to the form.
 &nbsp;
 &nbsp;
 &nbsp;
@@ -143,7 +143,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit3.JPG" width="300px"/>
-*Fig. 12: User modifies the "Do Laundy: activity to "Do laundry again" activity"*
+###### Fig. 12: User modifies the "Do Laundy: activity to "Do laundry again" activity"
 &nbsp;
 &nbsp;
 &nbsp;
@@ -151,7 +151,7 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Edit4.JPG" width="300px"/>
-*Fig. 13: "Do Laundy" activity is replaced by"Do laundry again" activity on the activity list.*
+###### Fig. 13: "Do Laundy" activity is replaced by"Do laundry again" activity on the activity list.
 &nbsp;
 &nbsp;
 &nbsp;
@@ -159,10 +159,10 @@ It is a single page application with responsive User Interface achieved through 
 
 
 
-##### Delete feature:
+#### Delete feature:
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Delete.JPG" width="300px"/>
-*Fig. 14: User clicks the delete button on the "Study for Test activity"*
+###### Fig. 14: User clicks the delete button on the "Study for Test activity"
 &nbsp;
 &nbsp;
 &nbsp;
@@ -170,12 +170,8 @@ It is a single page application with responsive User Interface achieved through 
 
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Delete2.JPG" width="300px"/>
-*Fig. 15: "Study for Test activity" is removed from the activities list*
+###### Fig. 15: "Study for Test activity" is removed from the activities list
 &nbsp;
 &nbsp;
 &nbsp;
-
-
-
-
 
