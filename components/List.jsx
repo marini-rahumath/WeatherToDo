@@ -4,12 +4,6 @@ import Modal from "./Modal.jsx";
 
 class List extends React.Component {
     constructor(props) {
-        //run the following commented code only ONCE to set initial value
-/*        var Data = [
-            {id: 0, title: "Do Laundry", description: "Wash, dry and fold all the clothes over the weekend ", date: "13/12/2019"},
-            {id: 1, title: "Go Shopping", description: "Go to the shopping mall to get the items from the list", date: "01/03/2019"},
-            {id: 2, title: "Watch Movies", description: "Spend a chill night catching with the old, missed movies", date: "04/05/2019"}]
-        window.localStorage.setItem('activity', JSON.stringify(Data));*/
         super(props);
         this.state = {
             taskData: JSON.parse(window.localStorage.getItem('activity')),
