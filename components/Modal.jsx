@@ -10,7 +10,7 @@ class Modal extends React.Component {
             titleData: this.props.titleData,
             descData: this.props.descData,
             dateData: this.props.dateData,
-            submit: false,
+            idData: this.props.idData
         };
 
         this.onCloseModal = this.onCloseModal.bind(this);
@@ -37,6 +37,7 @@ class Modal extends React.Component {
                     titleData: nextProps.titleData,
                     descData: nextProps.descData,
                     dateData: nextProps.dateData,
+                    idData: nextProps.idData,
 
                 });
                 console.log("model data before sate" + this.state.titleData)
@@ -49,7 +50,7 @@ class Modal extends React.Component {
             <div className={"modal"}>
                 <ReactModal open={this.state.open} onClose={this.onCloseModal} center>
 
-                    <Form titleData={this.state.titleData} descData={this.state.descData} dateData={this.state.dateData}/>
+                    <Form titleData={this.state.titleData} descData={this.state.descData} dateData={this.state.dateData} idData={this.state.idData}/>
 
                 </ReactModal>
 

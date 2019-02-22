@@ -8,7 +8,7 @@ import Modal from "./Modal.jsx";
 class List extends React.Component {
     constructor(props) {
         //run the following commented code only ONCE to set initial value
-        /*var Data = [
+/*        var Data = [
             {id: 0, title: "Do Laundry", description: "Wash, dry and fold all the clothes over the weekend ", date: "13/12/2019"},
             {id: 1, title: "Go Shopping", description: "Go to the shopping mall to get the items from the list", date: "01/03/2019"},
             {id: 2, title: "Watch Movies", description: "Spend a chill night catching with the old, missed movies", date: "04/05/2019"}]
@@ -22,6 +22,7 @@ class List extends React.Component {
             toEditTitle: "",
             toEditDesc: "",
             toEditDate: "",
+            toEditId: "",
         }
 
         this.handleChange = this.handleChange.bind(this)
@@ -53,43 +54,44 @@ class List extends React.Component {
             if (data.id === id) {
                 console.log("editing index " + id);
                 curData.push(data);
+                this.setState({
+                    open : !(this.state.open),
+                    toEditTitle: curData[0].title,
+                    toEditDesc: curData[0].description,
+                    toEditDate: curData[0].date,
+                    toEditId: curData[0].id,
+                })
+
+                console.log("editing title " + this.state.toEditTitle);
             }
         });
 
-        this.setState({
-            open : !(this.state.open),
-            toEditTitle: curData[0].title,
-            toEditDesc: curData[0].description,
-            toEditDate: curData[0].date,
-        })
+
     }
 
     handleChange(id) {
-        /*
-        // Data.splice(data.id, 1);*/
-        this.setState(prevState => {
-            const updatedStoredData = prevState.taskData.map(data => {
-                if (data.id === id) {
-                    console.log("data is"+  id);
-                    console.log("data_id is" +data.id );
-                    //Data.splice(data.id, 1);
-                    var storedData = JSON.parse(localStorage.getItem('activity'));
-                    console.log("StoredData before removal:" + storedData);
-                    var indexToRemove = id;
-                    storedData.slice(indexToRemove, 1);
-                    console.log("StoredData after removal:" + storedData);
-                    localStorage.setItem('activity', JSON.stringify(storedData));
-                    console.log(window.localStorage.getItem('activity'));
+        var storedData = JSON.parse(localStorage.getItem('activity'));
+
+        this.state.taskData.map(data => {
+            if (data.id === id) {
+                console.log("data is"+  id);
+                console.log("data_id is" +data.id );
+
+                for(var i = 0; i < storedData.length; i++) {
+                    if(storedData[i].id == id) {
+                        console.log(storedData[i])
+                        storedData.splice(i,1);
+                        break;
+                    }
                 }
-
-
-               // return data
-            })
-            return updatedStoredData;
-            return {
-                taskData: updatedStoredData
+                localStorage.setItem('activity',JSON.stringify(storedData));
+                console.log(window.localStorage.getItem('activity'));
             }
+        });
+        this.setState({
+            taskData: JSON.parse(window.localStorage.getItem('activity'))
         })
+
     }
 
     render() {
@@ -100,7 +102,7 @@ class List extends React.Component {
             )
         return (
             <div>
-                <div><Modal open={this.state.open} titleData={this.state.toEditTitle} descData={this.state.toEditDesc} dateData={this.state.toEditDate}/></div>
+                <div><Modal open={this.state.open} titleData={this.state.toEditTitle} descData={this.state.toEditDesc} dateData={this.state.toEditDate}  idData={this.state.toEditId}/></div>
                 {dataItems}
             </div>
         )

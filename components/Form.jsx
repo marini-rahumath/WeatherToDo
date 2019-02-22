@@ -9,6 +9,7 @@ class Form extends  React.Component {
             title: this.props.titleData,
             description: this.props.descData,
             date: this.props.dateData,
+            id: this.props.idData,
             submit: this.props.submit
         };
         this.handleChange = this.handleChange.bind(this);
@@ -30,21 +31,20 @@ class Form extends  React.Component {
             i++;
         }
         var value = (JSON.parse(localStorage.getItem('activity')));
-        var index = ((value.length)*2)+2;
-        value.push({id: index, title: dataArr[0], description: dataArr[2], date: dataArr[1]});
+        if(this.state.id != null){
+            value.splice(this.state.id, 1);
+            value.push({id: this.state.id, title: dataArr[0], description: dataArr[2], date: dataArr[1]});
+        }
+        else{
+            var index = ((value.length)*2)+2;
+            value.push({id: index, title: dataArr[0], description: dataArr[2], date: dataArr[1]});
+        }
         console.log(value);
         localStorage.setItem('activity', JSON.stringify(value));
         console.log(localStorage.getItem('activity'))
 
     }
 
-    componentDidUpdate(nextProps) {
-        if(this.props.submit !== nextProps.submit){
-            this.setState({
-                submit: true
-            });
-        }
-    }
 
     render() {
             if((final_title!=="")&&(final_disc!=="")&&(final_date!=="")) {
