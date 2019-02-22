@@ -2,7 +2,6 @@ import React from "react"
 var final_title ="", final_disc = "", final_date = "";
 
 class Form extends  React.Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -22,7 +21,6 @@ class Form extends  React.Component {
     }
 
     handleSubmit(event) {
-
         const form = event.target;
         const data = new FormData(form);
         var dataArr = [], i =0;
@@ -32,19 +30,20 @@ class Form extends  React.Component {
         }
         var value = (JSON.parse(localStorage.getItem('activity')));
         if(this.state.id != null){
-            value.splice(this.state.id, 1);
+            for(var i = 0; i < value.length; i++) {
+                if(value[i].id === this.state.id) {
+                    value.splice(i,1);
+                    break;
+                }
+            }
             value.push({id: this.state.id, title: dataArr[0], description: dataArr[2], date: dataArr[1]});
         }
         else{
             var index = ((value.length)*2)+2;
             value.push({id: index, title: dataArr[0], description: dataArr[2], date: dataArr[1]});
         }
-        console.log(value);
         localStorage.setItem('activity', JSON.stringify(value));
-        console.log(localStorage.getItem('activity'))
-
     }
-
 
     render() {
             if((final_title!=="")&&(final_disc!=="")&&(final_date!=="")) {

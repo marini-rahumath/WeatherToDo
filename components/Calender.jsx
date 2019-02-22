@@ -27,7 +27,6 @@ class Calender extends React.Component {
     }
 
     render() {
-        console.log(this.state.date);
         return (
 
             <div className={"weather-card centre"}>

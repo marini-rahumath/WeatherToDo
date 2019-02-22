@@ -18,7 +18,6 @@ class Weather extends React.Component {
 
     componentDidUpdate(nextProps) {
         if(this.props.value !== nextProps.value){
-            console.log("new prop"+nextProps.value)
             this.setState({
                 time: moment(nextProps.value).unix(),
                 error: null,
@@ -27,11 +26,9 @@ class Weather extends React.Component {
             });
             this.componentDidMount();
         }
-
     }
 
     componentDidMount() {
-        console.log("triggered me");
         fetch(" https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/fa764ee232821591c572e750fc363f32/1.351616,103.808053," +this.state.time,{headers: {'Access-Control-Allow-Origin': '*'}})
             .then(res => res.json())
             .then(
