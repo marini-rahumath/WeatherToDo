@@ -1,12 +1,11 @@
 import React from 'react';
 import Task from "./Task.jsx";
 import Modal from "./Modal.jsx";
-
 class List extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            taskData: JSON.parse(window.localStorage.getItem('activity')),
+            taskData: JSON.parse(localStorage['activity']),
             newData: this.props.data,
             open: false,
             toEditTitle: "",

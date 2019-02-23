@@ -1,5 +1,5 @@
 import React from "react"
-import List from "./List.jsx";
+import Data from "./Data.jsx";
 import FormButton from "./FormButton.jsx";
 import Calender from "./Calender.jsx";
 
@@ -8,7 +8,7 @@ function Layout() {
         <div className="card-list">
             <Calender/>
             <FormButton/>
-            <List/>
+            <Data/>
         </div>
     )
 }
