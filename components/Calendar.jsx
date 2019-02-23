@@ -1,9 +1,9 @@
 import React from 'react';
-import Calendar from 'react-calendar'
+import CalendarWidget from 'react-calendar'
 import Weather from "./Weather.jsx";
 var moment = require('moment');
 
-class Calender extends React.Component {
+class Calendar extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -36,7 +36,7 @@ class Calender extends React.Component {
                 <Weather value = {this.state.date}/>
                 <div className={"centre"} style={{zIndex: '100',  position: "absolute",
                     justifyContent: "center", display: this.state.show? "flex" : "none"}} >
-                    <Calendar
+                    <CalendarWidget
                         onChange={this.handleChange}
                         value={this.state.date}
                     />
@@ -45,4 +45,4 @@ class Calender extends React.Component {
         );
     }
 }
-export default Calender
+export default Calendar

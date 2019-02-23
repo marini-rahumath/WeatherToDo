@@ -1,12 +1,12 @@
 import React from "react"
 import Data from "./Data.jsx";
 import FormButton from "./FormButton.jsx";
-import Calender from "./Calender.jsx";
+import Calendar from "./Calendar.jsx";
 
 function Layout() {
     return (
         <div className="card-list">
-            <Calender/>
+            <Calendar/>
             <FormButton/>
             <Data/>
         </div>
