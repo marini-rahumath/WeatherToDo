@@ -1,4 +1,4 @@
-****# WeatherToDo
+# WeatherToDo
 
 <img src="https://github.com/marini-rahumath/WeatherToDo/blob/master/screenshot/Mobile.JPG" width="300px" align="middle"/>
 
@@ -10,7 +10,7 @@ Created for the purpose of learning and exploring react.js and for a technical a
 &nbsp;
 
 ### Usage:
-* Check the node and npm is installed in your PC using `node -v` and `npm -v` command on command prompt.
+* Check that node and npm is installed in your PC using `node -v` and `npm -v` command on command prompt.
 * If it is not installed, download and install from this site: https://nodejs.org/en/download/
 * To build the app, type `npx webpack` on command prompt at the project folder.
 * Look for `index.html` from the project folder and open it on any browser.
